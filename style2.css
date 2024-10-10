@@ -1,0 +1,45 @@
+#header{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    
+}
+#subhead{
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+}
+table{
+    border: 1px solid skyblue;
+    margin: 20px 250px 250px;
+}
+td{
+    background-color: rgb(160, 138, 180);
+    text-align: center;
+
+}
+th{
+    background-color: rgb(147, 116, 174);
+}
+th,td:hover{
+    /* transform: scale(1s);
+    background-color: blueviolet;
+    transform: scale(3s); */
+    transform: scale(1.1); /* Slightly increase size on hover */
+    transition: transform 0.3s ease, background-color 0.3s ease; /* Smooth animation */
+
+    
+}
+#main{
+    
+    padding: auto;
+}
+#table3{
+    height: 450px;
+    width: 200px;
+    margin: 10px auto;;
+}
+#table2{
+    height: 250px;
+    width: 300px;
+}

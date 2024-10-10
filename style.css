@@ -1,0 +1,28 @@
+table,th,td{
+    border: 2px groove rgb(47, 196, 67);    
+}
+table{
+    margin: 150px 250px 250px  ;
+    color: rgb(32, 118, 247);
+    font-size: xx-large;
+    border-collapse:collapse ;
+    background-color: black;
+}
+td,th{
+    text-align: center;
+    padding: 3px;
+ }
+ td:hover{
+    background-color: cornflowerblue;
+    transform: scale(1.5);
+    transition: 1s;
+ }
+ .abc{
+    background-color: rgb(185, 186, 218);
+ }
+ th:hover{
+    background-color: rgb(180, 39, 223);
+    transform: scale(1.5);
+    transition: 3s;
+ }
+ 

@@ -1,0 +1,41 @@
+/* General table styling */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Ensures there are no gaps between table borders */
+background-color: rgb(127, 127, 206);
+}
+
+th, td {
+    border: 1px solid black; /* Adds border to table cells */
+    text-align: center;      /* Center aligns text in each cell */
+    padding: 10px;           /* Adds padding for better spacing */
+}
+
+/* Specific styling for Table 2 and Table 3 */
+#table2, #table3 {
+    width: 100%; /* Ensure both tables take the full width of their containers */
+}
+
+/* Ensure all cells have equal width */
+#table2 td, #table3 td {
+    width: 25%;  /* Each cell occupies 25% of the table's width */
+    height: 50px; /* Set a fixed height for consistent row heights */
+}
+
+/* Optional: Style for the main table to keep it responsive */
+#main {
+    width: 100%;  /* Main table takes full width of the screen */
+}
+th,td:hover{
+        background-color: cornflowerblue;
+        transform: scale(1.5);
+        transition: 1s;
+     }
+    
+
+
+#header,#subhead{
+    text-align: center;
+
+    font-style: italic;
+}
